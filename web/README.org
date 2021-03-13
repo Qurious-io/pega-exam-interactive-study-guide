@@ -1,0 +1,23 @@
+* Introduction
+
+Mini study notes
+
+* Development
+
+1. Make sure the file ~./src/data/articles.json~ exists and has data.
+
+2. Run parcel:
+
+   #+BEGIN_SRC sh
+   # Install dependencies
+   npm install
+
+   # Run the dev server
+   npm start
+   #+END_SRC
+
+3. Install this directory as unpacked chrome extension.
+
+4. Open your browser and click on the extension icon.
+
+   e.g. with WSL it'd be ~\\wsl$\Ubuntu\home\<username>\path-to-web~

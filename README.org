@@ -1,0 +1,9 @@
+* Introduction
+
+A chrome extension and a scraper for interactively studying for Pega exam.
+
+* Directory structure
+
+1. ~indexer~ - python scraper to get module / quiz URLs.
+
+2. ~web~ - chrome extension with pre-scraped data for interactive studying.

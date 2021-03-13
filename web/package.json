@@ -1,0 +1,20 @@
+{
+  "name": "pega-quiz-scraper-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"parcel watch ./src/content/pega.jsx -d ./build --no-hmr -o content-pega.js\" \"parcel watch ./src/popup/index.jsx -d ./build --no-hmr -o popup.js\" \"parcel watch ./src/background/index.js -d ./build --no-hmr -o background.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "parcel-bundler": "1.12.3"
+  }
+}

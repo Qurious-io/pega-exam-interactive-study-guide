@@ -1,0 +1,11 @@
+* Introduction
+
+Indexes all links from pega academy
+
+1. Install ~requirements.txt~
+
+2. Run the scraper (or use pre-scraped data)
+
+   #+BEGIN_SRC sh
+   scrapy crawl articles -O ../web/src/data/articles.json
+   #+END_SRC
